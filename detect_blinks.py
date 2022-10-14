@@ -24,7 +24,7 @@ ap.add_argument("-p", "--shape-predictor",required=True)
 ap.add_argument("-v", "--video", type=str, default="")
 args = vars(ap.parse_args())
 
-EYE_AR_THRESH = 0.32
+EYE_AR_THRESH = 0.20
 EYE_AR_CONSEC_FRAMES = 3
 
 COUNTER=3
